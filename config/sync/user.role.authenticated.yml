@@ -9,6 +9,7 @@ dependencies:
     - contact
     - file
     - filter
+    - graphql
     - media
     - search
     - shortcut
@@ -25,6 +26,8 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'delete own files'
+  - 'execute graphql_compose_server arbitrary graphql requests'
+  - 'execute graphql_compose_server persisted graphql requests'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'

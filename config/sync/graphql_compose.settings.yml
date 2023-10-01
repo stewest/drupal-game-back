@@ -5,13 +5,21 @@ entity_config:
     image:
       enabled: true
       query_load_enabled: true
+  menu:
+    main:
+      enabled: true
+      menu_route_enabled: true
   node:
     article:
       enabled: true
       query_load_enabled: true
+      edges_enabled: true
+      routes_enabled: true
     page:
       enabled: true
       query_load_enabled: true
+      edges_enabled: true
+      routes_enabled: true
 field_config:
   media:
     image:
@@ -29,10 +37,20 @@ field_config:
       body:
         enabled: true
 settings:
-  expose_entity_ids: false
+  expose_entity_ids: true
   schema_description: 'GraphQL Compose'
   schema_version: '1'
   simple_unions: true
   site_name: false
   site_slogan: false
   site_front: true
+  svg_image: false
+  svg_filesize: 100
+  custom:
+    2129a620-0734-441a-862e-2d09a08b2dfb:
+      name: testfield
+      description: 'testfield with string'
+      value: "You're connected"
+      type: string
+      weight: 0
+  edge_max_limit: 100

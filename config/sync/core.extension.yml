@@ -29,8 +29,10 @@ module:
   graphql: 0
   graphql_composable: 0
   graphql_compose: 0
+  graphql_compose_edges: 0
   graphql_compose_menus: 0
   graphql_compose_routes: 0
+  graphql_compose_views: 0
   help: 0
   history: 0
   image: 0
